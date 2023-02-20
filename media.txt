@@ -1,0 +1,13 @@
+.contact-middle{
+    background-color: #FC7300;
+    margin: 10px;
+    height: 25vh;
+    width: 500px;
+    color: #fff;
+    display: flex;
+    position:absolute;
+    top:350px;
+    right: -29px;
+    justify-content: center;
+    align-items: center;
+}
