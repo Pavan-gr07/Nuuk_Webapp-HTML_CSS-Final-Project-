@@ -1,628 +1,454 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Nuuk WebApp</title>
-    <meta name="viewport" content="width-device-width,initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <section id="top-banner">
-      <div id="navbar">
-        <a href="#" id="brand"
-          ><img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png"
-            width="90"
-            alt="nuuk logo"
-        /></a>
-        <nav>
-          <a class="menus" href="#"><div>home</div></a>
-          <a class="menus" href="#"><div>projects</div></a>
-          <a class="menus" href="#"><div>about</div></a>
-          <a class="menus" href="#"><div>services</div></a>
-          <a class="menus" href="#"><div>blog</div></a>
-          <div id="dropdown-wrapper">
-            <a class="menus" href="#"
-              ><div>pages</div>
-              <img
-                id="dropdown-btn"
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img//sort-down.svg"
-                alt="dropdown"
-            /></a>
-          </div>
-          <span class="quote-btn">get free quote</span>
-        </nav>
-        <div id="hamburger-icon">
-          <a href="#">
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-          </a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis&family=Montserrat:wght@200;300;600&family=Open+Sans:wght@300;400&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="shotcut icon" type="img.ico" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/021c70449c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600&family=Open+Sans:wght@300;400&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- top-banner -->
+    <div class="container-top">
+        <!-- header-link section -->
+        <header>
+            <nav>
+                <div><img src="companyicon.png" alt="comapanyIcon" id="brand"></div>
+                <div class="nav-link" id="navbar">
+                    <div ><a href="#" id="home">HOME</a></div>
+                    <div><a href="#">ABOUT</a></div>
+                    <div><a href="#">SERVICES</a></div>
+                    <div><a href="#">BLOG</a></div>
+                    <div><a href="#">PAGES</a></div>
+                    <div id="button"> <a href="#" id="button">GET FREE QUOTE</a></div>
+                 </div>
+            </nav>
+        </header>
+        <!-- quote-section -->
+        <div class="qoute">
+            <div class="quote-container">
+                <h1 class="header">YOU DREAM. WE CREATE.</h1>
+                <p class="para">We turn your ideas to reality, we don't stop until
+                 you're satisfied.</p>
+                <button id="button">GET FREE QUOTE</button>
+            </div>
         </div>
-      </div>
-      <div id="slogan-section">
-        <div>
-          <h1>you dream. we create.</h1>
-          <p>
-            We turn your ideas to reality.we don't stop until you're satisfied.
-          </p>
-          <span id="slogan-section-btn" class="quote-btn">get free quote</span>
+        <!-- media-link-section -->
+        <div class="media-link">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
         </div>
-      </div>
-      <div id="social-btn-section">
-        <a href="#">
-          <div class="social-icons"><i class="fab fa-facebook-f"></i></div>
-          <div class="social-icons"><i class="fab fa-twitter"></i></div>
-          <div class="social-icons"><i class="fab fa-linkedin-in"></i></div>
-          <div class="social-icons"><i class="fab fa-instagram"></i></div>
-        </a>
-      </div>
-      <div id="contact-section">
-        <div class="info">
-          <img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg"
-            alt="phone"
-            class="info-image"
-          />
-          <h1 class="phone-text">phone number</h1>
-          <p class="para-white">1-800-506-266</p>
-          <p class="para-white">1-100-777-800</p>
-        </div>
-        <div class="info">
-          <img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/mail.svg"
-            alt="message"
-            class="info-image"
-          />
-          <h1 class="phone-text">contact</h1>
-          <p class="para-white">contact@nuuk.com</p>
-          <p class="para-white">info@nuuk.com</p>
-        </div>
-        <div class="info">
-          <img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/clock.svg"
-            alt="clock"
-            class="info-image"
-          />
-          <h1 class="phone-text">opening times</h1>
-          <p class="para-white">Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
-          <span id="info-btn">find on map</span>
-        </div>
-      </div>
-    </section>
-    <section id="service-section">
-      <div class="sections-topbar">
-        <div class="title-wrapper">
-          <h2 class="top-title">our specialization</h2>
-          <h1 class="background-title">services</h1>
-        </div>
-        <a class="for-btn view-btn service-section-btns" href="#"
-          >view all services</a
-        >
-      </div>
-      <div id="services">
-        <div class="service-items">
-          <img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/brickwall.svg"
-          />
-          <h1 class="service-title">Renovation</h1>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
-          <a class="for-btn" href="#">Learn More</a>
-        </div>
-        <div class="service-items">
-          <img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/set-square.svg"
-          />
-          <h1 class="service-title">Architecture</h1>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
-          <a class="for-btn" href="#">Learn More</a>
-        </div>
-        <div class="service-items">
-          <img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/toolbox.svg"
-          />
-          <h1 class="service-title">Construction</h1>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
-          <a class="for-btn" href="#">Learn More</a>
-        </div>
-        <div class="service-items">
-          <img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/paint-roller.svg"
-          />
-          <h1 class="service-title">Financial Results</h1>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
-          </p>
-          <a class="for-btn" href="#">Learn More</a>
-        </div>
-      </div>
-      <div id="about-section">
-        <div>
-          <img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/serv-1.jpg"
-            id="shape-image"
-          />
-        </div>
-        <div>
-          <div class="title-wrapper">
-            <h2 class="top-title">who we are</h2>
-            <h1 class="background-title">about</h1>
-          </div>
-          <p class="description">
-            Based on collective work and shared knowledge, Nuuk aims to favor
-            dialogue and debate, to transform individual knowledge into
-            increased creative potential.
-          </p>
-          <p class="description">
-            Our studio is a architecture practice based in NY and Paris. Today,
-            it includes 150 architects, urban planners, landscape and interior
-            designers of 25 different nationalities. The company principle of
-            Architecture-Studio is the collective conception. From the very
-            beginning, the practice has believed in the virtues of exchange,
-            crossing ideas, common effort, shred knowledge.
-          </p>
-          <a class="for-btn view-btn service-section-btns" href="#"
-            >meet the team</a
-          >
-        </div>
-      </div>
-      <div id="stats-section">
-        <div class="stats">
-          <h1>170</h1>
-          <p class="description">Employer with over 10 years of experience</p>
-        </div>
-        <div class="stats">
-          <h1>10</h1>
-          <p class="description">Years experience in construction industries</p>
-        </div>
-        <div class="stats">
-          <h1>690</h1>
-          <p class="description">Residential premises completed in 2019</p>
-        </div>
-        <div class="stats">
-          <h1>7.1</h1>
-          <p class="description">Milion dollar value on investments</p>
-        </div>
-      </div>
-    </section>
-    <section class="grey-background-section">
-      <div class="sections-topbar-wrapper">
-        <div class="sections-topbar">
-          <div class="title-wrapper">
-            <h2 class="top-title">our work</h2>
-            <h1 class="background-title">projects</h1>
-          </div>
-          <a class="for-btn view-btn" href="#">view all works</a>
-        </div>
-      </div>
-      <div id="project-image-container">
-        <div class="projects">
-          <div id="overlay-container">
-            <a href="#">
-              <img
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg"
-              />
-              <div class="project-overlay">
-                <div>
-                  <p>view project</p>
+        <!-- contact-section -->
+        <div class="contact">
+            <div class="contact-middle">
+                <div class="contact-inner">
+                    <a href="#"><i class="fa-solid fa-square-phone"></i></a>
+                     <p class="contact-heading">PHONE NUMBER</p>
+                    <p class="phone">1-800-506-266</p>
+                    <p class="phone">1-100-777-800</p>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="projects">
-          <div id="overlay-container">
-            <a href="#">
-              <img
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg"
-              />
-              <div class="project-overlay">
-                <div>
-                  <p>view project</p>
+                <div class="contact-inner">
+                    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                    <p class="contact-heading">contact</p>
+                    <p class="phone">contact@nuuk.com</p>
+                    <p class="phone">info@nuuk.com</p>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="projects">
-          <div id="overlay-container">
-            <a href="#">
-              <img
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg"
-              />
-              <div class="project-overlay">
-                <div>
-                  <p>view project</p>
+                <div class="contact-inner">
+                    <a href="#"><i class="fa-regular fa-clock"></i></a>
+                    <p class="contact-heading">OPENING TIMES</p>
+                    <p class="phone">Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+                    <a href="#" id="findmap">FIND ON MAP</a>
                 </div>
-              </div>
-            </a>
-          </div>
+            </div>
         </div>
-        <div class="projects">
-          <div id="overlay-container">
-            <a href="#">
-              <img
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg"
-              />
-              <div class="project-overlay">
-                <div>
-                  <p>view project</p>
+    </div>
+    <main>
+        <div >
+            <!-- <p class="services">SERVICES</p> -->
+            <div class="services1">
+                <h1 class="background-title">services</h1>
+                <h2>OUR SPECIALIZATION</h2>
+                <h4>VIEW ALL SERVICES</h4>
+            </div>
+        </div>
+        <div class="container-specialization">
+            <div class="renovation">
+                <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/brickwall.svg" alt="" width="60px">
+                <h2>Renovation</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, neque mollitia dolor magnam 
+                    
+                     </p>
+                <h4>LEARN MORE</h4>
+
+            </div>
+            <div class="renovation">
+                <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/set-square.svg" alt="" width="60px">
+                <h2>Architecture</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, neque mollitia dolor magnam 
+                    
+                     </p>
+                <h4>LEARN MORE</h4>
+            </div>
+            <div class="renovation">
+                <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/toolbox.svg" alt="" width="60px">
+                <h2>Construction</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, neque mollitia dolor magnam 
+                    
+                     </p>
+                <h4>LEARN MORE</h4>
+            </div>
+            <div class="renovation">
+                <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/paint-roller.svg" alt="" width="60px">
+                <h2>FinancialResults</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, neque mollitia dolor magnam 
+                    </p>
+                <h4>LEARN MORE</h4>
+            </div>
+        </div>
+        <div class="working">
+            <div class="img"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/serv-1.jpg"
+                id="shape-image" alt="" width="500px"></div>
+            <div class="comments">
+                <h1>WHO WE ARE</h1>
+                <div>Based on collective work and shared knowledge, Nuuk aims to favor dialogue and debate, to transform 
+                    individual knowledge into increased creative divotential.</div>
+                <div>Our studio is a architecture practice based in NY and Paris. Today, it includes 
+                    150 architects, urban planners, landscape and interior designers of 25 different nationalities.
+                     The company principle of Architecture-Studio is the collective conception. 
+                     From the very beginning, the practice has believed in the virtues of exchange, crossing ideas, common effort, shred knowledge.
                 </div>
-              </div>
-            </a>
-          </div>
+                <h4>MEET THE TEAM</h4>
+            </div>
         </div>
-        <div class="projects">
-          <div id="overlay-container">
-            <a href="">
-              <img
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg"
-              />
-              <div class="project-overlay">
-                <div>
-                  <p>view project</p>
+        <div class="numbers">
+            <div class="num-census">
+                <h1>170</h1>
+                <p class="data">Employer with over 10 years of experience</p>
+            </div>
+            <div class="num-census">
+                <h1>10</h1>
+                <p class="data">Years experience in construction industries</p>
+            </div>
+            <div class="num-census">
+                <h1>690</h1>
+                <p class="data">Residential premises completed in 2019</p>
+            </div>
+            <div class="num-census">
+                <h1>7.1</h1>
+                <p class="data">Milion dollar value on investments</p>
+            </div>
+        </div>
+        <!-- our work -->
+        <!-- <div class="ourwork-container"> -->
+        <div class="our-work">
+            <div id="ourwork-heading">
+                <!-- <div><h1>PROJECTS</h1></div> -->
+                <div class="services1">
+                    <h2>OUR WORK</h2>
+                    <!-- <h1 class="background-title">PROJECTS</h1> -->
+                    <h4>VIEW ALL WORKS</h4>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="projects">
-          <div id="overlay-container">
-            <a href="#">
-              <img
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg"
-              />
-              <div class="project-overlay">
-                <div>
-                  <p>view project</p>
+            </div>
+            <div class="ourwork-pics">
+                <div class="pics-conatiner">
+                    <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg" alt="" width="390px"> <div class="project-overlay">
+                        <div>
+                          <p>view project</p>
+                        </div>
+                      </div></a>
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="orange-section">
-      <h1 class="top-title">let's make something great together</h1>
-      <p>Get in touch with us and send some basic info for a quick quote.</p>
-      <a class="for-btn view-btn" href="#">get free quote</a>
-    </section>
-    <section class="grey-background-section">
-      <div class="sections-topbar-wrapper">
-        <div class="sections-topbar">
-          <div class="title-wrapper">
-            <h2 class="top-title">prefessionals</h2>
-            <h1 class="background-title">team</h1>
-          </div>
-          <a class="for-btn view-btn" href="#">about us</a>
-        </div>
-      </div>
-      <div id="staff-cards-container">
-        <div class="staff-cards">
-          <div class="staff-image">
-            <img
-              src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg"
-            />
-          </div>
-          <div class="staff-info">
-            <h3 class="staff-name">philip brower</h3>
-            <p class="staff-job">Managing Director</p>
-          </div>
-          <div class="staff-social-btn">
-            <a class="social-btn-container" href="#">
-              <div class="social-icons"><i class="fab fa-facebook-f"></i></div>
-              <div class="social-icons"><i class="fab fa-twitter"></i></div>
-              <div class="social-icons"><i class="fab fa-linkedin-in"></i></div>
-            </a>
-          </div>
-        </div>
-        <div class="staff-cards">
-          <div class="staff-image">
-            <img
-              src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg"
-            />
-          </div>
-          <div class="staff-info">
-            <h3 class="staff-name">john wick</h3>
-            <p class="staff-job">Managing Director</p>
-          </div>
-          <div class="staff-social-btn">
-            <a class="social-btn-container" href="#">
-              <div class="social-icons"><i class="fab fa-facebook-f"></i></div>
-              <div class="social-icons"><i class="fab fa-twitter"></i></div>
-              <div class="social-icons"><i class="fab fa-linkedin-in"></i></div>
-            </a>
-          </div>
-        </div>
-        <div class="staff-cards">
-          <div class="staff-image">
-            <img
-              src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg"
-            />
-          </div>
-          <div class="staff-info">
-            <h3 class="staff-name">jimmy mcgill</h3>
-            <p class="staff-job">Managing Director</p>
-          </div>
-          <div class="staff-social-btn">
-            <a class="social-btn-container" href="#">
-              <div class="social-icons"><i class="fab fa-facebook-f"></i></div>
-              <div class="social-icons"><i class="fab fa-twitter"></i></div>
-              <div class="social-icons"><i class="fab fa-linkedin-in"></i></div>
-            </a>
-          </div>
-        </div>
-        <div class="staff-cards">
-          <div class="staff-image">
-            <img
-              src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg"
-            />
-          </div>
-          <div class="staff-info">
-            <h3 class="staff-name">sara connor</h3>
-            <p class="staff-job">Managing Director</p>
-          </div>
-          <div class="staff-social-btn">
-            <a class="social-btn-container" href="#">
-              <div class="social-icons"><i class="fab fa-facebook-f"></i></div>
-              <div class="social-icons"><i class="fab fa-twitter"></i></div>
-              <div class="social-icons"><i class="fab fa-linkedin-in"></i></div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="testimonials-section">
-        <div id="left-side">
-          <div class="title-wrapper">
-            <h2 class="top-title">testimonials</h2>
-            <h1 class="background-title">clients</h1>
-          </div>
-          <p class="description">
-            Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent
-            blandit laoreet nibh. Morbi mollis tellus ac sapien.
-          </p>
-          <a class="for-btn view-btn" href="#">our services</a>
-        </div>
-        <div id="right-side">
-          <div>
-            <div class="testimonial-item">
-              <div class="testimonial-photo">"</div>
-              <h3 class="testimonial-title">sara william</h3>
-              <p class="job-title">CEO at Webflow</p>
-              <p class="testimonial-para">
-                "Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
-                ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
-                cursus id rutrum lorem imperdiet"
-              </p>
-            </div>
-            <div class="testimonial-item">
-              <div class="testimonial-photo">"</div>
-              <h3 class="testimonial-title">john junior</h3>
-              <p class="job-title">Manager at Complexx</p>
-              <p class="testimonial-para">
-                "Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla.
-                Cras varius. Etiam sit amet orci eget eros faucibus tincidunt.
-                Fusce a quam"
-              </p>
-            </div>
-          </div>
-          <div>
-            <div id="top-margin" class="testimonial-item">
-              <div class="testimonial-photo">"</div>
-              <h3 class="testimonial-title">raven durgan</h3>
-              <p class="job-title">Architect at Group</p>
-              <p class="testimonial-para">
-                "Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet
-                eget, lobortis pellentesque, rutrum eu, nisl"
-              </p>
-            </div>
-            <div class="testimonial-item">
-              <div class="testimonial-photo">"</div>
-              <h3 class="testimonial-title">sami typo</h3>
-              <p class="job-title">SEO at Balfin</p>
-              <p class="testimonial-para">
-                "Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a
-                nisl id ante tempus hendrerit"
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="blog-section">
-      <div class="sections-topbar-wrapper">
-        <div class="sections-topbar">
-          <div class="title-wrapper">
-            <h2 class="top-title">latest news</h2>
-            <h1 class="background-title">blog</h1>
-          </div>
-          <a class="for-btn view-btn service-section-btns" href="#"
-            >view blog</a
-          >
-        </div>
-      </div>
-      <div id="blogs-container">
-        <div class="blogs">
-          <a href="#">
-            <div class="blog-image">
-              <img
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg"
-              />
-            </div>
-            <div class="blog-content">
-              <h3>blogspot 1</h3>
-              <p class="description">
-                Service and providing potential clients and customers with
-                testimonials is one of the best ways of marketing.
-              </p>
-              <span class="read-more-btn">read more</span>
-            </div>
-            <div class="blog-date">
-              <div class="meta-number">17</div>
-              <div class="meta-month">oct</div>
-            </div>
-          </a>
-        </div>
-        <div class="blogs">
-          <a href="#">
-            <div class="blog-image">
-              <img
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg"
-              />
-            </div>
-            <div class="blog-content">
-              <h3>blogspot 2</h3>
-              <p class="description">
-                Service and providing potential clients and customers with
-                testimonials is one of the best ways of marketing.
-              </p>
-              <span class="read-more-btn">read more</span>
-            </div>
-            <div class="blog-date">
-              <div class="meta-number">11</div>
-              <div class="meta-month">dec</div>
-            </div>
-          </a>
-        </div>
-        <div class="blogs">
-          <a href="#">
-            <div class="blog-image">
-              <img
-                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg"
-              />
-            </div>
-            <div class="blog-content">
-              <h3>blogspot 3</h3>
-              <p class="description">
-                Service and providing potential clients and customers with
-                testimonials is one of the best ways of marketing.
-              </p>
-              <span class="read-more-btn">read more</span>
-            </div>
-            <div class="blog-date">
-              <div class="meta-number">27</div>
-              <div class="meta-month">oct</div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-    <section id="logo-section">
-      <div id="logo-container">
-        <h3>trusted by top companies</h3>
-        <a href="#"
-          ><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png"
-        /></a>
-        <a href="#"
-          ><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-2w.png"
-        /></a>
-        <a href="#"
-          ><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-3w.png"
-        /></a>
-        <a href="#"
-          ><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-4w.png"
-        /></a>
-        <a href="#"
-          ><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-5w.png"
-        /></a>
-      </div>
-    </section>
-    <section id="footer">
-      <div id="footer-content">
-        <div class="footer-items">
-          <div>
-            <div class="heading-wrapper">
-              <h3 class="heading">about nuuk</h3>
-              <div class="heading-line"></div>
-            </div>
-            <p id="para-about-nuuk">
-              Based on collective work and shared knowledge, Nuuk aims to favor
-              dialogue and debate, to transform individual knowledge into
-              increased creative potential.
-            </p>
-            <a href="#"><p class="footer-btns">find on map</p></a>
-          </div>
-        </div>
-        <div class="footer-items">
-          <div>
-            <div class="heading-wrapper">
-              <h3 class="heading">services</h3>
-              <div class="heading-line"></div>
-            </div>
-            <a href="#"><p class="footer-btns">foinancial results</p></a>
-            <a href="#"><p class="footer-btns">construction</p></a>
-            <a href="#"><p class="footer-btns">archotecture</p></a>
-            <a href="#"><p class="footer-btns">renovation</p></a>
-          </div>
-        </div>
-        <div class="footer-items">
-          <div>
-            <div class="heading-wrapper">
-              <h3 class="heading">contact us</h3>
-              <div class="heading-line"></div>
-            </div>
-            <div id="contact-wrapper">
-              <div>
-                <img
-                  src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg"
-                />
-                <div>
-                  <h3 class="phone-text">phone number</h3>
-                  <p class="para-white">1-800-506-266</p>
+                <div class="pics-conatiner">
+                    <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg" alt="" width="390px"><div class="project-overlay">
+                        <div>
+                          <p>view project</p>
+                        </div>
+                    </div></a>
                 </div>
-              </div>
-              <div>
-                <img
-                  src="https://nuuk-e3eaa.firebaseapp.com/assets/img/clock.svg"
-                />
-                <div>
-                  <h3 class="phone-text">opening times</h3>
-                  <p class="para-white">
-                    Mon - Sat 8:00 - 17:30, Sunday - Closed
-                  </p>
+                <div class="pics-conatiner">
+                    
+                    <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg" alt="" width="390px"><div class="project-overlay">
+                        <div>
+                          <p>view project</p>
+                        </div>
+                    </div></a>
                 </div>
-              </div>
-              <div>
-                <img
-                  src="https://nuuk-e3eaa.firebaseapp.com/assets/img/mail.svg"
-                />
-                <div>
-                  <h3 class="phone-text">contact</h3>
-                  <p class="para-white">contact@nuuk.com</p>
+                <div class="pics-conatiner"> 
+                    <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg" alt="" width="390px"><div class="project-overlay">
+                        <div>
+                          <p>view project</p>
+                        </div>
+                    </div></a>
                 </div>
-              </div>
-            </div>
-          </div>
+                <div class="pics-conatiner">
+                    <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg" alt="" width="390px"><div class="project-overlay">
+                        <div>
+                          <p>view project</p>
+                        </div>
+                    </div></a>
+                </div>
+                <div class="pics-conatiner">
+                    <a href="#"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg" alt="" width="390px"><div class="project-overlay">
+                        <div>
+                          <p>view project</p>
+                        </div>
+                    </div></a>
+                </div>
+            <!-- </div> -->
         </div>
-      </div>
-      <div id="nuuk-logo-container">
-        <a href="#" id="brand"
-          ><img
-            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png"
-            width="90"
-            alt="nuuk logo"
-        /></a>
-      </div>
-    </section>
-  </body>
+        <div class="somethink-greate">
+            <div class="lets-make">
+                <h1 class="header">LET'S MAKE SOMETHING GREAT TOGETHER</h1>
+            </div>
+            <div class="getintouch">
+                <p class="para">Get in touch with us and send some basic info for a quick quote.</p>
+            </div>
+            <a href="#" class="getfree">GET FREE QUOTE</a>
+        </div>
+        <div class="proffessionals">
+            <div class="services1">
+                <h1 class="background-title">TEAM</h1>
+                <h2>PREFESSIONALS</h2>
+                <h4>ABOUT US</h4>
+            </div>
+            <div class="professionals-pics">
+                <div class="team">
+                    <div class="team-conatainer">
+                        <div class="img">
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg" alt="" width="280px" height="300px">
+                         </div>
+                        <div class="links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                         </div>
+                        <div class="name"><h1>PHILIP BROWER</h1></div>
+                        <div class="position"><h4>Managing Director</h4></div>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-conatainer">
+                        <div class="img">
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg" alt="" width="280px" height="300px">
+                         </div>
+                        <div class="links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                         </div>
+                        <div class="name"><h1>JOHN WICK</h1></div>
+                        <div class="position"><h4>Managing Director</h4></div>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-conatainer">
+                        <div class="img">
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg" alt="" width="280px" height="300px">
+                         </div>
+                        <div class="links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                         </div>
+                        <div class="name"><h1>JIMMY MCGILL</h1></div>
+                        <div class="position"><h4>Managing Director</h4></div>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-conatainer">
+                        <div class="img">
+                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg" alt="" width="280px" height="300px">
+                         </div>
+                        <div class="links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                         </div>
+                        <div class="name"><h1>SARA CONNOR</h1></div>
+                        <div class="position"><h4>Managing Director</h4></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TESTIMONIALS -->
+        <div class="testimonials">
+            <div class="left">
+                <!-- <h1 class="background-title">CLIENTS</h1> -->
+                <div class="header1"><h2 >TESTIMONIALS</h2></div>
+                <div class="data"><p >Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent blandit laoreet nibh. Morbi mollis tellus ac sapien.</p></div>
+                <div class="oursevices"><a href="#">OUR SERVICES</a></div>
+            </div>
+            <div class="right">
+                <div class="right-container">
+                    <div class="right-left">
+                        <div class="sarawillam">
+                            <div class="testimonial-photo">"</div>
+                            <!-- <div><img src="testimonials.png" alt="" width="60px"></div> -->
+                            <div><h3>SARA WILLIAM</h3></div>
+                            <div class="ceo">
+                                <h5>CEO at Webflow</h5>
+                                <p >"Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet"</p>
+                            </div>
+                        </div>
+                        <div class="sarawillam-bottom">
+                            <div class="testimonial-photo">"</div>
+                            <!-- <div><img src="testimonials.png" alt="" width="60px"></div> -->
+                            <h3>JOHN JUNIOR</h3>
+                            <div class="ceo">
+                                <h5>Manager at Complexx</h5>
+                                <p >"Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Cras varius. Etiam sit amet orci eget eros faucibus tincidunt. Fusce a quam"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-right ">
+                        <div class="sarawillam right1">
+                            <div class="testimonial-photo">"</div>
+                            <!-- <div><img src="testimonials.png" alt="" width="60px"></div> -->
+                            <div><h3>RAVEN DURGAN</h3></div>
+                            <div class="ceo">
+                                <h5>Architect at Group</h5>
+                                <p>"Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl"</p>
+                            </div>
+                        </div>
+                        <div class="sarawillam-bottom right2">
+                            <div class="testimonial-photo">"</div>
+                            <!-- <div><img src="testimonials.png" alt="" width="60px"></div> -->
+                            <div><h3>SAMI TYPO</h3></div>
+                            <div class="ceo">
+                                <h5>SEO at Balfin</h5>
+                                <p >"Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a nisl id ante tempus hendrerit"</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /*** LATEST NEWS *****/ -->
+
+
+    <div class="services1 latest1">
+        <h1 class="background-title">BLOG</h1>
+        <h2>LATEST NEWS</h2>
+        <h5>VIEW BLOG</h5>
+    </div>
+    <div class="latestNews">
+        <div class="latest">
+            <div class="datemonth">
+                <h2>17</h2>
+                <h4>OCT</h4>
+            </div>
+            <div class="postimg"><img src="port-1.jpg" alt="" width="370px" height="250px"></div>
+            <div class="blogpost">
+                <div><h3>BLOGSPOT 1</h3></div>
+                <div><h5>Service and providing potential clients and 
+                    customers with testimonials is one of the best ways of marketing
+                </h5></div>
+                <div><h4>READ MORE</h4></div>
+            </div>
+        </div>
+        <div class="latest">
+            <div class="datemonth">
+                <h2>11</h2>
+                <h4>DEC</h4>
+            </div>
+            <div class="postimg"><img src="port-2.jpg" alt="" width="370px" height="250px"></div>
+            <div class="blogpost">
+                <div><h3>BLOGSPOT 2</h3></div>
+                <div><h5>Service and providing potential clients and 
+                    customers with testimonials is one of the best ways of marketing
+                </h5></div>
+                <div><h4>READ MORE</h4></div>
+            </div>
+        </div>
+        <div class="latest">
+            <div class="datemonth">
+                <h2>27</h2>
+                <h4>OCT</h4>
+            </div>
+            <div class="postimg"><img src="port-3.jpg" alt="" width="370px" height="250px"></div>
+            <div class="blogpost">
+                <div><h3>BLOGSPOT 3</h3></div>
+                <div><h5>Service and providing potential clients and 
+                    customers with testimonials is one of the best ways of marketing
+                </h5></div>
+                <div><h4>READ MORE</h4></div>
+            </div>
+        </div> 
+    </div>
+    <!-- /**** TRUSTED ****/ -->
+    <div class="trusted">
+        <div class="trusted1">
+            <div class="trusted2">
+                <div id="by"><h4>TRUSTED BY TOP COMPANIES</h4></div>
+                <div class="logo1"><img src="logo-1w.png" alt="" width="100px"></div>
+                <div class="logo1"><img src="logo-2w.png" alt="" width="100px"></div>
+                <div class="logo1"><img src="logo-3w.png" alt="" width="100px"></div>
+                <div class="logo1"><img src="logo-4w.png" alt="" width="100px"></div>
+                <div class="logo1"><img src="logo-5w.png" alt="" width="100px"></div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="ABC">
+            <div class="about">
+                <div class="about-inn">
+                    <h3>ABOUT NUUK</h3>
+                    <p>
+                        Based on collective work and shared knowledge, 
+                        Nuuk aims to favor dialogue and debate, to transform
+                         individual knowledge into increased creative potential
+                    </p>
+                    <h5>FIND ON MAP</h5>
+                </div>
+            </div>
+            <div class="about">
+                <div class="about-inn servicesfo">
+                    <h3>SERVICES</h3>
+                    <h4>FINANCIAL RESULTS</h4>
+                    <h4>CONSTRUCTION </h4>
+                    <h4>ARCHOTECTURE</h4>
+                    <h4>RENOVATION</h4>
+                </div>
+            </div>
+            <div class="contact">
+                <h3 class="c">CONTACT </h3>
+                <div class="phone">
+                    <a href="#"><i class="fa-solid fa-square-phone"></i></a>
+                    <div class="phonenum">
+                        <h3>PHONE NUMBER</h3>
+                        <h3>1-800-506-266</h3>
+                    </div>
+                </div>
+                <div class="phone">
+                    <a href="#"><i class="fa-regular fa-clock"></i></a>
+                    <div class="openingtime">
+                        <h3>OPENING TIMES</h3>
+                        <h3>Mon - Sat 8:00 - 17:30, Sunday - Closed</h3>
+                    </div>
+                </div>
+                <div class="phone">
+                    <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                    <div class="contactcom">
+                        <h3>contact@nuuk.com</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="img"><img src="companyicon.png" alt="" width="160px" height="102px"></a>
+    </footer>
+</body>
 </html>
